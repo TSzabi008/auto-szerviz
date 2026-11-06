@@ -1,19 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <title>Apex AutoWorks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="apex-autoworks-logo.svg">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <a href="index.html" class="navigacio"><img src="apex-autoworks-logo.svg" alt="logo" id="home"></a>
-            <a href="about.html" class="navigacio">About</a>
-            <a href="services.html" class="navigacio">Services</a>
-            <a href="contact.html" class="navigacio">Contact</a>
+
+    <header id="header" class="header">
+        <nav id="navbar" class="navbar">
+
+            <a href="index.html" id="logo-link" class="logo-link">
+                <img src="apex-autoworks-logo.svg" alt="Logo" id="logo" class="logo">
+            </a>
+
+            <div id="nav-links" class="nav-links">
+                <a href="index.html" id="home-link" class="nav-link">Home</a>
+                <a href="about.html" id="about-link" class="nav-link">About</a>
+                <a href="#services" id="services-link" class="nav-link">Services</a>
+                <a href="contact.html" id="contact-link" class="nav-link">Contact</a>
+            </div>
+
         </nav>
     </header>
+
+
+    <main id="main" class="main">
+
+        <section id="hero" class="hero">
+
+            <div id="hero-content" class="hero-content">
+
+                <h1 id="hero-title" class="hero-title">
+                    DRIVE WITH CONFIDENCE.
+                </h1>
+
+                <p id="hero-description" class="hero-description">
+                    We offer repairs, maintenance and professional services
+                    to keep your car in good condition.
+                </p>
+
+                <a href="contact.html" id="hero-button" class="button">
+                    BOOK A SERVICE
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <section id="services" class="services">
+
+            <div id="services-heading" class="services-heading">
+                <h2 id="services-title" class="section-title">
+                    OUR SERVICES
+                </h2>
+
+                <p id="services-description" class="section-description">
+                    We offer different services for your vehicle.
+                </p>
+            </div>
+
+
+            <div id="cards-container" class="cards-container">
+
+                <div id="engine-card" class="card">
+
+                    <img
+                        src="https://www.slashgear.com/img/gallery/the-12-best-v12-engines-ever-made/intro-1672777036.jpg"
+                        alt="Car engine"
+                        id="engine-image"
+                        class="card-image">
+
+                    <div id="engine-content" class="card-content">
+
+                        <h3 id="engine-title" class="card-title">
+                            Engine Repair
+                        </h3>
+
+                        <p id="engine-description" class="card-description">
+                            We inspect and repair engines to improve
+                            your vehicle's performance.
+                        </p>
+
+                        <a href="contact.html" id="engine-button" class="card-button">
+                            MORE INFORMATION
+                        </a>
+
+                    </div>
+                </div>
+
+
+                <div id="ac-card" class="card">
+
+                    <img
+                        src="https://www.cbac.com/images/blog/AC_Services_automotive.JPG"
+                        alt="Car air conditioning"
+                        id="ac-image"
+                        class="card-image">
+
+                    <div id="ac-content" class="card-content">
+
+                        <h3 id="ac-title" class="card-title">
+                            A/C Repair
+                        </h3>
+
+                        <p id="ac-description" class="card-description">
+                            We inspect and repair air conditioning
+                            systems to make your journeys comfortable.
+                        </p>
+
+                        <a href="contact.html" id="ac-button" class="card-button">
+                            MORE INFORMATION
+                        </a>
+
+                    </div>
+                </div>
+
+
+                <div id="tire-card" class="card">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=900"
+                        alt="Car tire"
+                        id="tire-image"
+                        class="card-image">
+
+                    <div id="tire-content" class="card-content">
+
+                        <h3 id="tire-title" class="card-title">
+                            Tire Repair
+                        </h3>
+
+                        <p id="tire-description" class="card-description">
+                            We repair punctures and inspect tires
+                            to help keep your driving safe.
+                        </p>
+
+                        <a href="contact.html" id="tire-button" class="card-button">
+                            MORE INFORMATION
+                        </a>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="contact-section" class="contact-section">
+
+            <h2 id="contact-title" class="contact-title">
+                NEED HELP WITH YOUR CAR?
+            </h2>
+
+            <p id="contact-description" class="contact-description">
+                Contact us and we will be happy to help.
+            </p>
+
+            <a href="contact.html" id="contact-button" class="button">
+                CONTACT US
+            </a>
+
+        </section>
+
+    </main>
+
+
+    <footer id="footer" class="footer">
+
+        <p id="footer-text" class="footer-text">
+            © 2026 Apex AutoWorks. All rights reserved.
+        </p>
+
+    </footer>
+
 </body>
 </html>
